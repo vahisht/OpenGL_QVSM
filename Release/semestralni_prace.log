@@ -1,0 +1,36 @@
+﻿Build started 6.1.2018 12:02:45.
+     1>Project "C:\FEL\PGR2_sem2\semestralni_prace.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I./include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt curve.cpp main.cpp render.cpp
+         curve.cpp
+     1>curve.cpp(141): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+     1>curve.cpp(143): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+     1>curve.cpp(155): warning C4244: 'initializing': conversion from 'float' to 'size_t', possible loss of data
+     1>curve.cpp(157): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+         main.cpp
+     1>main.cpp(63): warning C4244: 'initializing': conversion from 'float' to 'GLuint64', possible loss of data
+     1>main.cpp(253): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(209): warning C4101: 'slendy': unreferenced local variable
+     1>main.cpp(208): warning C4101: 'col': unreferenced local variable
+     1>main.cpp(283): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(286): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(289): warning C4018: '<': signed/unsigned mismatch
+     1>main.cpp(335): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>main.cpp(418): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+     1>main.cpp(401): warning C4101: 'fragments_query': unreferenced local variable
+         render.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\FEL\PGR2_sem2\Release\semestralni_prace.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:./lib pgr.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\FEL\PGR2_sem2\Release\semestralni_prace.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\FEL\PGR2_sem2\Release\semestralni_prace.lib" /MACHINE:X86 /SAFESEH Release\curve.obj
+         Release\main.obj
+         Release\render.obj
+         Generating code
+         5 of 708 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         semestralni_prace.vcxproj -> C:\FEL\PGR2_sem2\Release\semestralni_prace.exe
+     1>Done Building Project "C:\FEL\PGR2_sem2\semestralni_prace.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.45
